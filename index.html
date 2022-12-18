@@ -19,13 +19,13 @@
       </nav>
       <header>
         <div class="row">
-          <div>
+          <div class="home_desc">
             <h1>Best place to learn Frontend</h1>
             <p class="sheader">
               Go from being an absolute beginner to pro with a simplified
               process
             </p>
-            <button><a href="https://frontendsimplified.com/" target="_blank" id="button">Start now</a></button>
+            <button class="home_desc-button"><a href="https://frontendsimplified.com/" target="_blank" id="button">Start now</a></button>
           </div>
           <figure>
             <img src="./HTML Practise Assets/laptop.png" alt="" />
@@ -86,16 +86,18 @@
 
       <section id="contact">
         <h2>Contact</h2>
-        <form action="">
-          <label for="Email">Email</label>
-          <input type="email" placeholder="fse@example.com" />
-          <label for="Message">Message</label>
-          <textarea
+        <div class="cwrapper">
+          <form action="">
+            <label for="Email">Email</label>
+            <input type="email" placeholder="fse@example.com" />
+            <label for="Message">Message</label>
+            <textarea
             type="text"
             placeholder="I did fdc -> aic instead of margin 0 auto because, yah the primary instance was the submit button was not included in the css"
-          ></textarea>
-          <button>Submit</button>
-        </form>
+            ></textarea>
+            <button>Submit</button>
+          </form>
+        </div>
       </section>
     </main>
 
